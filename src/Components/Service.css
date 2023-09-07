@@ -1,0 +1,30 @@
+.card-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+@media (max-width: 1185px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+
+    .card {
+        margin: auto;
+    }
+}
+
+@media (max-width: 850px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: auto;
+
+
+    }
+
+    .card {
+        margin: auto;
+    }
+}
